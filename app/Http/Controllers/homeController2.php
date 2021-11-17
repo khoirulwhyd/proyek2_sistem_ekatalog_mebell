@@ -14,4 +14,16 @@ class homeController2 extends Controller
     {
         return view('about');
     }
+    public function shop()
+    {
+        return view('shop');
+    }
+    public function contact()
+    {
+        return view('contact');
+    }
+    public function shop_single()
+    {
+        return view('shop-single');
+    }
 }
