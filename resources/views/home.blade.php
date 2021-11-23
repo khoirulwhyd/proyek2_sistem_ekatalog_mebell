@@ -16,6 +16,7 @@
 
                     {{ __('You are logged in!') }}
                 </div>
+                <a button type="Halaman Utama"class ="btn-btn-primary"href="{{ route('index') }}">Halaman Utama</a>
             </div>
         </div>
     </div>
