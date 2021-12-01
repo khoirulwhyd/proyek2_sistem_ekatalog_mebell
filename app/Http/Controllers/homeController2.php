@@ -26,4 +26,10 @@ class homeController2 extends Controller
     {
         return view('shop-single');
     }
+
+    public function home_admin()
+    {
+        return view('homeadmin');
+    }
+    
 }
