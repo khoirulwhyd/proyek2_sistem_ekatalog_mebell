@@ -19,6 +19,7 @@ Auth::routes();
 Route::get('/', [App\Http\Controllers\homeController2::class, 'home'])->name('index');
 Route::get('/homeadmin', [App\Http\Controllers\homeController2::class, 'home'])->name('home');
 Route::get('/dashboard', [App\Http\Controllers\dasboardadminController::class, 'dashboardadmin'])->name('dashboardadmin');
+Route::get('/detailproduk', [App\Http\Controllers\dasboardadminController::class, 'detailproduk'])->name('detailproduk');
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::get('/index', [App\Http\Controllers\homeController2::class, 'home'])->name('index');
 Route::get('/about', [App\Http\Controllers\homeController2::class, 'about'])->name('about');
