@@ -25,5 +25,4 @@ Route::get('/about', [App\Http\Controllers\homeController2::class, 'about'])->na
 Route::get('/shop', [App\Http\Controllers\homeController2::class, 'shop'])->name('shop');
 Route::get('/contact', [App\Http\Controllers\homeController2::class, 'contact'])->name('contact');
 Route::get('/shop-single', [App\Http\Controllers\homeController2::class, 'shop_single'])->name('shop-single');
-
 Route::get('/dashboard', [App\Http\Controllers\dasboardadminController::class, 'dashboardadmin'])->name('dashboardadmin');
