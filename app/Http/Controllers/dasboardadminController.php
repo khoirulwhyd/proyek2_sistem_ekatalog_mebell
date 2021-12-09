@@ -11,8 +11,4 @@ class dasboardadminController extends Controller
     {
         return view('dashboardadmin');
     }
-    public function detailproduk()
-    {
-        return view('detailproduk');
-    }
 }
