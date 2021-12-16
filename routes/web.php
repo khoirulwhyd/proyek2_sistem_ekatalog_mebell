@@ -1,5 +1,6 @@
 <?php
 
+use GuzzleHttp\Promise\Create;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -26,3 +27,7 @@ Route::get('/shop', [App\Http\Controllers\homeController2::class, 'shop'])->name
 Route::get('/contact', [App\Http\Controllers\homeController2::class, 'contact'])->name('contact');
 Route::get('/shop-single', [App\Http\Controllers\homeController2::class, 'shop_single'])->name('shop-single');
 Route::get('/dashboard', [App\Http\Controllers\dasboardadminController::class, 'dashboardadmin'])->name('dashboardadmin');
+
+
+Route::resource('product',App\Http\Controllers\ProductController::class);
+Route::resource('categories',App\Http\Controllers\CategoryController::class);

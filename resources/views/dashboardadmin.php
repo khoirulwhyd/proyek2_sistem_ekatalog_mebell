@@ -95,13 +95,15 @@
                 </ul>
             </div>
         </nav>
-
+        
         <div class="slider" id="sliders">
             <div class="slider-head">
                 <div class="d-block pt-4 pb-3 px-3">
                     <img src="./images/user/user.png" alt="user" class="slider-img-user mb-2">
-                    <p class="fw-bold mb-0 lh-1 text-white">Admin</p>
+                    <!-- @foreach($pengguna as $pg) -->
+                    <p class="fw-bold mb-0 lh-1 text-white">admin</p>
                     <small class="text-white">admin@gmail.com</small>
+                    <!-- @endforeach -->
                 </div>
             </div>
             <div class="slider-body px-1">
@@ -116,7 +118,7 @@
                     <a class="nav-link px-3" href="#">
                         <i class="fa fa-dropbox fa-lg box-icon" aria-hidden="true"></i>Tambah Produk
                     </a>
-					<a class="nav-link px-3" href="detailproduk">
+					<a class="nav-link px-3" href="product">
                         <i class="fa fa-dropbox fa-lg box-icon" aria-hidden="true"> </i>Detail Produk
                     </a>
                     <hr class="soft my-1 bg-white">
@@ -135,7 +137,6 @@
                 </nav>
             </div>
         </div>
-
         <div class="main-pages">
             <div class="container-fluid">
                 <div class="row g-2 mb-3">
@@ -148,6 +149,8 @@
                         </div>
                     </div>
                 </div>
+        
+                
 
 
     <div class="slider-background" id="sliders-background"></div>
