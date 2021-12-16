@@ -21,10 +21,7 @@ class homeController2 extends Controller
         $products = Product::all();
         return view('shop',compact('products'));
     }
-    public function contact()
-    {
-        return view('contact');
-    }
+
     public function shop_single()
     {
         return view('shop-single');

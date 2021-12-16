@@ -35,7 +35,6 @@
                         <label>Description</label>
                         <textarea class="form-control" id="description" name="description">{{ old('description') }}</textarea>
                     </div>
-                    
                     <div class="form-group">
                         <label>Price</label>
                         <input type="text" class="form-control" id="price" name="price" placeholder="Enter price" value="{{ old('price') }}" autofocus required>

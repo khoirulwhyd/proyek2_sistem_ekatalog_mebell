@@ -207,13 +207,9 @@
                                 @endif
                             </td>
                             <td>
-                                
                                 <a href="{{ url('product.edit', ['id' => $product->id]) }}" class="btn btn-primary">Edit</a>
                                 <a href="{{ url('product.detail', ['id' => $product->id]) }}" class="btn btn-info">Detail</a>
-                            </td>
-
-                            <td>
-                                <form action="{{ url('product.destroy', ['id' => $product->id]) }}" method="post" onsubmit="return confirm('Delete this posts permanently ?')">
+                            <form action="{{ url('product.destroy', ['id' => $product->id]) }}" method="post" onsubmit="return confirm('Delete this posts permanently ?')">
                                     @csrf
                                     @method('DELETE')
                                     <button class="btn btn-danger" type="submit">Delete</button>
