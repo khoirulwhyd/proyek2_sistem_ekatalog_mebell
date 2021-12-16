@@ -222,6 +222,7 @@
                         </tr>
                         </tbody>
                         @endforeach
+
                     </table>
                 </div>
                 <!-- /.box-body -->

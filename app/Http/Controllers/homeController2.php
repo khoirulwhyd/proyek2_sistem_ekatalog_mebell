@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Product;
+use App\Models\Category;
 
 class homeController2 extends Controller
 {
@@ -16,7 +18,8 @@ class homeController2 extends Controller
     }
     public function shop()
     {
-        return view('shop');
+        $products = Product::all();
+        return view('shop',compact('products'));
     }
     public function contact()
     {
