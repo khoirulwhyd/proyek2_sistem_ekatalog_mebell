@@ -115,11 +115,11 @@
                         <i class="fa fa-user fa-lg box-icon" aria-hidden="true"></i>Profile
                     </a>
                     <hr class="soft my-1 bg-white">
-                    <a class="nav-link px-3" href="#">
+                    <!-- <a class="nav-link px-3" href="#">
                         <i class="fa fa-dropbox fa-lg box-icon" aria-hidden="true"></i>Tambah Produk
-                    </a>
+                    </a> -->
 					<a class="nav-link px-3" href="product">
-                        <i class="fa fa-dropbox fa-lg box-icon" aria-hidden="true"> </i>Detail Produk
+                        <i class="fa fa-dropbox fa-lg box-icon" aria-hidden="true"> </i>Tambah Produk
                     </a>
                     <hr class="soft my-1 bg-white">
                     <a class="nav-link px-3" href="#">

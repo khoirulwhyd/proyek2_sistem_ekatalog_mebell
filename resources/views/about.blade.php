@@ -175,7 +175,7 @@ https://templatemo.com/tm-559-zay-shop
                 <div class="row pt-2">
                     <div class="col-12">
                         <p class="text-left text-light">
-                            Copyright Sistem E-Ketalog
+                            Copyright Sistem E-Katalog
                         </p>
                     </div>
                 </div>

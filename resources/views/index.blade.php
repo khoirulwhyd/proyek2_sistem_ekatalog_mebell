@@ -55,7 +55,7 @@ https://templatemo.com/tm-559-zay-shop
                         </li>
                     </ul>
                 </div>
-                <div class="navbar align-self-center d-flex">
+                <!-- <div class="navbar align-self-center d-flex">
                     <div class="d-lg-none flex-sm-fill mt-3 mb-4 col-7 col-sm-auto pr-3">
                         <div class="input-group">
                             <input type="text" class="form-control" id="inputMobileSearch" placeholder="Search ...">
@@ -63,8 +63,8 @@ https://templatemo.com/tm-559-zay-shop
                                 <i class="fa fa-fw fa-search"></i>
                             </div>
                         </div>
-                    </div>
-                    <a class="nav-icon d-none d-lg-inline" href="#" data-bs-toggle="modal" data-bs-target="#templatemo_search">
+                    </div> -->
+                    <!-- <a class="nav-icon d-none d-lg-inline" href="#" data-bs-toggle="modal" data-bs-target="#templatemo_search">
                         <i class="fa fa-fw fa-search text-dark mr-2"></i>
                     </a>
                     <a class="nav-icon position-relative text-decoration-none" href="#">
@@ -74,7 +74,7 @@ https://templatemo.com/tm-559-zay-shop
                     <a class="nav-icon position-relative text-decoration-none" href="#">
                         <i class="fa fa-fw fa-user text-dark mr-3"></i>
                         <span class="position-absolute top-0 left-100 translate-middle badge rounded-pill bg-light text-dark">+99</span>
-                    </a>
+                    </a> -->
                 </div>
             </div>
 
@@ -117,10 +117,10 @@ https://templatemo.com/tm-559-zay-shop
                         </div>
                         <div class="col-lg-6 mb-0 d-flex align-items-center">
                             <div class="text-align-left align-self-center">
-                                <h1 class="h1 text-success"><b>Jati Makmur</b> eCommerce</h1>
-                                <h3 class="h2">Tempat Terbaikmu Untuk Membeli Furnitur</h3>
+                                <h1 class="h1 text-success"><b>Jati Makmur</b> E-Katalog</h1>
+                                <h3 class="h2">Tempat Terbaikmu Untuk Membeli Furniture</h3>
                                 <p>
-                                    Jati Makmur eCommerce adalah website terbaik untuk membeli berbagai macam Furnitur
+                                    Jati Makmur E-Katalog adalah website terbaik untuk membeli berbagai macam Furniture
                                 </p>
                             </div>
                         </div>
@@ -135,10 +135,10 @@ https://templatemo.com/tm-559-zay-shop
                         </div>
                         <div class="col-lg-6 mb-0 d-flex align-items-center">
                             <div class="text-align-left">
-                                <h1 class="h1">Jati Makmur eCommerce</h1>
+                                <h1 class="h1">Jati Makmur E-Katalog</h1>
                                 <h3 class="h2">Tempat Terbaikmu Untuk Membeli Furnitur</h3>
                                 <p>
-                                    Beberapa jenis Furnitur yang terkenal di mebel seluruh Kab. Ngawi di produksi oleh UD. Muebel Jati Makmur
+                                    Beberapa jenis Furniture yang terkenal di mebel seluruh Kab. Ngawi di produksi oleh UD Jati Makmur
                                 </p>
                             </div>
                         </div>
@@ -153,10 +153,10 @@ https://templatemo.com/tm-559-zay-shop
                         </div>
                         <div class="col-lg-6 mb-0 d-flex align-items-center">
                             <div class="text-align-left">
-                                <h1 class="h1">Jati Makmur eCommerce</h1>
+                                <h1 class="h1">Jati Makmur E-Katalog</h1>
                                 <h3 class="h2">Tempat Terbaikmu Untuk Membeli Furnitur</h3>
                                 <p>
-                                    Dengan tenaga yang berpengalaman di bidangnya walaupun UD JATI MAKMUR sebelumnya belum
+                                    Dengan tenaga yang berpengalaman di bidangnya walaupun UD Jati Makmur sebelumnya belum
                                     mempunyai website tetap eksis di daerah Kab. Ngawi
                                 </p>
                             </div>
@@ -179,28 +179,28 @@ https://templatemo.com/tm-559-zay-shop
     <section class="container py-5">
         <div class="row text-center pt-3">
             <div class="col-lg-6 m-auto">
-                <h1 class="h1">Categories of The Month</h1>
+                <h1 class="h1">Kategori Bulan Ini</h1>
                 <p>
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                    deserunt mollit anim id est laborum.
+                    Banyak sekali kategori meubel yang diproduksi oleh UD Jati Makmur. 
+                    Setiap bulan, UD Jati Makmur pasti memiliki kategori yang sering dipesan oleh pelanggan.
                 </p>
             </div>
         </div>
         <div class="row">
             <div class="col-12 col-md-4 p-5 mt-3">
                 <a href="#"><img src="./assets/img/category_img_01.jpg" class="rounded-circle img-fluid border"></a>
-                <h5 class="text-center mt-3 mb-3">Watches</h5>
-                <p class="text-center"><a class="btn btn-success">Go Shop</a></p>
+                <h5 class="text-center mt-3 mb-3">Kursi</h5>
+                <!-- <p class="text-center"><a class="btn btn-success">Go Shop</a></p> -->
             </div>
             <div class="col-12 col-md-4 p-5 mt-3">
                 <a href="#"><img src="./assets/img/category_img_02.jpg" class="rounded-circle img-fluid border"></a>
-                <h2 class="h5 text-center mt-3 mb-3">Shoes</h2>
-                <p class="text-center"><a class="btn btn-success">Go Shop</a></p>
+                <h2 class="h5 text-center mt-3 mb-3">Jendela</h2>
+                <!-- <p class="text-center"><a class="btn btn-success">Go Shop</a></p> -->
             </div>
             <div class="col-12 col-md-4 p-5 mt-3">
                 <a href="#"><img src="./assets/img/category_img_03.jpg" class="rounded-circle img-fluid border"></a>
-                <h2 class="h5 text-center mt-3 mb-3">Accessories</h2>
-                <p class="text-center"><a class="btn btn-success">Go Shop</a></p>
+                <h2 class="h5 text-center mt-3 mb-3">Pintu</h2>
+                <!-- <p href="shop">class="text-center"><a class="btn btn-success">Go Shop</a></p> -->
             </div>
         </div>
     </section>
@@ -263,7 +263,7 @@ https://templatemo.com/tm-559-zay-shop
                 <div class="row pt-2">
                     <div class="col-12">
                         <p class="text-left text-light">
-                            Copyright Sistem E-Ketalog
+                            Copyright Sistem E-Katalog
                         </p>
                     </div>
                 </div>

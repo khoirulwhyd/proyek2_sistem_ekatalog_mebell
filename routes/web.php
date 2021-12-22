@@ -30,3 +30,5 @@ Route::get('/dashboard', [App\Http\Controllers\dasboardadminController::class, '
 
 Route::resource('product',App\Http\Controllers\ProductController::class);
 Route::resource('categories',App\Http\Controllers\CategoryController::class);
+
+Route::resource('edit', App\Http\Controllers\ProductController::class);

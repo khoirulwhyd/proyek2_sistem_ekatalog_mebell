@@ -113,11 +113,11 @@
                         <i class="fa fa-user fa-lg box-icon" aria-hidden="true"></i>Profile
                     </a>
                     <hr class="soft my-1 bg-white">
-                    <a class="nav-link px-3" href="#">
+                    <!-- <a class="nav-link px-3" href="#">
                         <i class="fa fa-dropbox fa-lg box-icon" aria-hidden="true"></i>Tambah Produk
-                    </a>
+                    </a> -->
 					<a class="nav-link px-3" href="products">
-                        <i class="fa fa-dropbox fa-lg box-icon" aria-hidden="true"> </i>Detail Produk
+                        <i class="fa fa-dropbox fa-lg box-icon" aria-hidden="true"> </i>Tambah Produk
                     </a>
                     <hr class="soft my-1 bg-white">
                     <a class="nav-link px-3" href="#">
@@ -207,7 +207,7 @@
                                 @endif
                             </td>
                             <td>
-                                <a href="{{ url('product.edit', ['id' => $product->id]) }}" class="btn btn-primary">Edit</a>
+                                <a href="{{ url('product.edit', ['no' => $product->no]) }}" class="btn btn-primary">Edit</a>
                                 <a href="{{ url('product.detail', ['id' => $product->id]) }}" class="btn btn-info">Detail</a>
                             <form action="{{ url('product.destroy', ['id' => $product->id]) }}" method="post" onsubmit="return confirm('Delete this posts permanently ?')">
                                     @csrf
