@@ -87,7 +87,7 @@
                                 <i class="fa fa-cog fa-lg me-3" aria-hidden="true"></i>Setting
                             </a>
                             <hr class="dropdown-divider">
-                            <a class="dropdown-item" href="#">
+                            <a class="dropdown-item" href="">
                                 <i class="fa fa-sign-out fa-lg me-2" aria-hidden="true"></i>LogOut
                             </a>
                         </div>
@@ -131,9 +131,14 @@
                     <hr class="soft my-1 bg-white">
 
                     <hr class="soft my-1 bg-white">
-                    <a class="nav-link px-3" href="#">
+                    <a class="nav-link px-3" href="{{ route('logout') }}"
+                        onclick="event.preventDefault();
+                                document.getElementById('logout-form').submit();">
                         <i class="fa fa-sign-out fa-lg box-icon" aria-hidden="true"></i>LogOut
                     </a>
+                    <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                                        @csrf
+                                    </form>
                 </nav>
             </div>
         </div>
