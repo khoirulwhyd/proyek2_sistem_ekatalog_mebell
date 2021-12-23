@@ -7,8 +7,18 @@ use Illuminate\Database\Eloquent\Model;
 
 class Product extends Model
 {
+    protected $primaryKey = 'id'; 
     protected $guarded = [];
     protected $table = 'products';
+
+    protected $fillable = [
+        'name',
+        'description',
+        'price',
+        'stock',
+        'image',
+        'status',
+    ];
 
     public function category()
     {

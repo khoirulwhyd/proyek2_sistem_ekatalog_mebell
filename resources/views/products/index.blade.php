@@ -116,15 +116,8 @@
                     <!-- <a class="nav-link px-3" href="#">
                         <i class="fa fa-dropbox fa-lg box-icon" aria-hidden="true"></i>Tambah Produk
                     </a> -->
-					<a class="nav-link px-3" href="products">
+					<a class="nav-link px-3" href="product">
                         <i class="fa fa-dropbox fa-lg box-icon" aria-hidden="true"> </i>Tambah Produk
-                    </a>
-                    <hr class="soft my-1 bg-white">
-                    <a class="nav-link px-3" href="#">
-                        <i class="fa fa-bell fa-lg box-icon" aria-hidden="true"></i>Notifikasi
-                    </a>
-                    <a class="nav-link px-3" href="#">
-                        <i class="fa fa-envelope fa-lg box-icon" aria-hidden="true"></i>Message
                     </a>
                     <hr class="soft my-1 bg-white">
 
@@ -207,9 +200,11 @@
                                 @endif
                             </td>
                             <td>
-                                <a href="{{ url('product.edit', ['no' => $product->no]) }}" class="btn btn-primary">Edit</a>
-                                <a href="{{ url('product.detail', ['id' => $product->id]) }}" class="btn btn-info">Detail</a>
-                            <form action="{{ url('product.destroy', ['id' => $product->id]) }}" method="post" onsubmit="return confirm('Delete this posts permanently ?')">
+                                <a href="{{ url('product.edit', $product->id) }}" class="btn btn-primary">Edit</a>
+                                <a href="{{ url('product.detail', $product->id) }}" class="btn btn-info">Detail</a>
+
+
+                            <form action="{{ route('product.destroy', $product->id) }}" method="post" onsubmit="return confirm('Delete this posts permanently ?')">
                                     @csrf
                                     @method('DELETE')
                                     <button class="btn btn-danger" type="submit">Delete</button>

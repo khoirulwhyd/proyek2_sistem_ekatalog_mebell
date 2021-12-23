@@ -121,13 +121,7 @@
 					<a class="nav-link px-3" href="product">
                         <i class="fa fa-dropbox fa-lg box-icon" aria-hidden="true"> </i>Tambah Produk
                     </a>
-                    <hr class="soft my-1 bg-white">
-                    <a class="nav-link px-3" href="#">
-                        <i class="fa fa-bell fa-lg box-icon" aria-hidden="true"></i>Notifikasi
-                    </a>
-                    <a class="nav-link px-3" href="#">
-                        <i class="fa fa-envelope fa-lg box-icon" aria-hidden="true"></i>Message
-                    </a>
+
                     <hr class="soft my-1 bg-white">
 
                     <hr class="soft my-1 bg-white">

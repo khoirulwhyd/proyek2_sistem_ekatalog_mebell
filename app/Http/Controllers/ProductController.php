@@ -52,7 +52,8 @@ class ProductController extends Controller
         }
 
         Product::create($input);
-        return redirect()->back()->with('status','Anda berhasil menambahkan product');
+        return redirect()->back()
+        ->with('status','Anda berhasil menambahkan product');
 
     }
 
@@ -76,9 +77,8 @@ class ProductController extends Controller
     public function edit($id)
     {
         $title = 'Edit Product';
-        $product = Product::findOrFail($id);
-        $categories = Category::orderBy('name','asc')->get();
-        return view('products.edit', compact('product', 'title','categories'));
+        $product = Product::find($id);
+        return view('products.edit', compact('product', 'title'));
     }
 
     /**
@@ -126,7 +126,7 @@ class ProductController extends Controller
 
     public function detail($id)
     {
-        $product = Product::findOrFail($id);
+        $product = Product::find($id);
         return view('products.detail',compact('product'));
     }
 }

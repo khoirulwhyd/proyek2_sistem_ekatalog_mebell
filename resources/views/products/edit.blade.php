@@ -39,15 +39,6 @@
                     </div>
 
                     <div class="form-group">
-                        <label>Category</label>
-                        <select name="category_id" class="form-control">
-                            @foreach($categories as $category)
-                                <option value="{{ $category->id }}" {{ ($product->category_id == $category->id) ? 'selected' : '' }}>{{ $category->name }}</option>
-                            @endforeach
-                        </select>
-                    </div>
-
-                    <div class="form-group">
                         <label>Price</label>
                         <input type="text" class="form-control" id="price" name="price" placeholder="Enter price" value="{{ $product->price }}" autofocus required>
                     </div>

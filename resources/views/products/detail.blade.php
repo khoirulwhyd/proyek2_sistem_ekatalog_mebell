@@ -69,7 +69,7 @@
                 <div class="box">
                     <div class="box-body box-profile">
                         {{--<h3>Product</h3>--}}
-                        <h1>{{ $product->name }}</h1> <a class="btn bg-maroon-active">{{ $product->category->name }}</a>
+                        <h1>{{ $product->name }}</h1> <a class="btn bg-maroon-active">{{ $product->name }}</a>
                         {{--<h3>Price</h3>--}}
                         <h3>Rp. {{ number_format($product->price,0) }}</h3>
                         <button class="btn btn-info"><h4>Stock Product {{ $product->stock }} Pcs</h4></button>
