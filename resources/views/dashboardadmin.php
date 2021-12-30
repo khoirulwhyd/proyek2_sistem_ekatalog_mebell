@@ -80,12 +80,6 @@
                                     <small>admin@gmail.com</small>
                                 </div>
                             </div>
-                            <a class="dropdown-item" href="#">
-                                <i class="fa fa-user fa-lg me-3" aria-hidden="true"></i>Profile
-                            </a>
-                            <a class="dropdown-item" href="#">
-                                <i class="fa fa-cog fa-lg me-3" aria-hidden="true"></i>Setting
-                            </a>
                             <hr class="dropdown-divider">
                             <a class="dropdown-item" href="{{ (route'logout') }}">
                                 <i class="fa fa-sign-out fa-lg me-2" aria-hidden="true"></i>LogOut
@@ -112,9 +106,6 @@
                     <a class="nav-link px-3 active" href="#">
                         <i class="fa fa-home fa-lg box-icon" aria-hidden="true"></i>Home
                     </a>
-                    <a class="nav-link px-3" href="#">
-                        <i class="fa fa-user fa-lg box-icon" aria-hidden="true"></i>Profile
-                    </a>
                     <hr class="soft my-1 bg-white">
                     <!-- <a class="nav-link px-3" href="#">
                         <i class="fa fa-dropbox fa-lg box-icon" aria-hidden="true"></i>Tambah Produk
@@ -122,6 +113,7 @@
 					<a class="nav-link px-3" href="product">
                         <i class="fa fa-dropbox fa-lg box-icon" aria-hidden="true"> </i>Tambah Produk
                     </a>
+                    
 
                     <hr class="soft my-1 bg-white">
 
@@ -131,9 +123,8 @@
                                 document.getElementById('logout-form').submit();">
                         <i class="fa fa-sign-out fa-lg box-icon" aria-hidden="true"></i>LogOut
                     </a>
-                    <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
-                    
-                    @csrf
+                    <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
+                        @csrf
                     </form>
                 </nav>
             </div>
