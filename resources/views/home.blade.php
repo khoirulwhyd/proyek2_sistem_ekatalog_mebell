@@ -13,10 +13,7 @@
                             {{ session('status') }}
                         </div>
                     @endif
-
-                    {{ __('You are logged in!') }}
                 </div>
-                <a button type="Halaman admin"class ="btn-btn-primary"href="dashboard">Halaman admin</a>
             </div>
         </div>
     </div>

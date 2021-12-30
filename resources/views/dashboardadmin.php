@@ -87,9 +87,10 @@
                                 <i class="fa fa-cog fa-lg me-3" aria-hidden="true"></i>Setting
                             </a>
                             <hr class="dropdown-divider">
-                            <a class="dropdown-item" href="">
+                            <a class="dropdown-item" href="{{ (route'logout') }}">
                                 <i class="fa fa-sign-out fa-lg me-2" aria-hidden="true"></i>LogOut
                             </a>
+                            
                         </div>
                     </li>
                 </ul>
@@ -131,8 +132,9 @@
                         <i class="fa fa-sign-out fa-lg box-icon" aria-hidden="true"></i>LogOut
                     </a>
                     <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
-                                        @csrf
-                                    </form>
+                    
+                    @csrf
+                    </form>
                 </nav>
             </div>
         </div>

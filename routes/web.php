@@ -27,7 +27,7 @@ Route::get('/shop', [App\Http\Controllers\homeController2::class, 'shop']);
 Route::get('/shop-single', [App\Http\Controllers\homeController2::class, 'shop_single'])->name('shop-single');
 Route::get('/dashboard', [App\Http\Controllers\dasboardadminController::class, 'dashboardadmin'])->name('dashboardadmin');
 
-
+Route::get('/logout', 'App\Http\Controllers\Auth\LoginController@logout');
 Route::resource('product',App\Http\Controllers\ProductController::class);
 Route::resource('categories',App\Http\Controllers\CategoryController::class);
 
